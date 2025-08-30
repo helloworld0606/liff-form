@@ -2,7 +2,7 @@
 <html lang="zh-TW">
 <head>
   <meta charset="UTF-8" />
-  <title>吉伊卡哇中盤商</title>
+  <title>AI自動化工作流之術</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
   <style>
@@ -21,7 +21,7 @@
   </style>
 </head>
 <body>
-  <h2>資料登記</h2>
+  <h2>資料填寫</h2>
   <form id="agentForm">
     <label for="name">姓名<span style="color:red">*</span></label>
     <input type="text" name="name" id="name" required />
@@ -32,39 +32,17 @@
     <label for="email">電子郵件<span style="color:red">*</span></label>
     <input type="email" name="email" id="email" required />
 
-    <label for="level">地區<span style="color:red">*</span></label>
+        <label for="level">我是<span style="color:red">*</span></label>
     <select name="level" id="level" required>
       <option value="">請選擇</option>
-      <option value="台灣">台灣</option>
-      <option value="新加坡">新加坡</option>
-      <option value="韓國">韓國</option>
-      <option value="菲律賓">菲律賓</option>
-      <option value="香港">香港</option>
+      <option value="student">學生</option>
+      <option value="startup">自僱/個人商店</option>
+      <option value="pro">上班族</option>
+      <option value="company">中小企業</option>
     </select>
 
-     </--  <label for="team">所屬團隊<span style="color:red">*</span></label>
-    <select name="team" id="team" required>
-      <option value="">請選擇</option>
-      <option value="百萬美">百萬美</option>
-      <option value="億元富娜">億元富娜</option>
-      <option value="戰鬥印鈔機">戰鬥印鈔機</option>
-      <option value="女力崛起">女力崛起</option>
-      <option value="美金團隊">美金團隊</option>
-      <option value="香港 GLOW TEAM">香港 GLOW TEAM</option>
-    </select> --/>
-
-    <label for="message">授權代碼<span style="color:red">*</span></label>
-    <input type="text" name="code" id="code" required/>
-
-    </-- <label for="superior">直屬上級層級<span style="color:red">*</span></label>
-    <select name="superior" id="superior" required>
-      <option value="">請選擇</option>
-      <option value="戰略">戰略</option>
-      <option value="皇家">皇家</option>
-      <option value="一級">一級</option>
-      <option value="二級">二級</option>
-      <option value="三級">三級</option>
-    </select> --/>
+    <!-- <label for="message">授權代碼<span style="color:red">*</span></label>
+    <input type="text" name="code" id="code" required/> -->
 
     <button type="submit" class="submit-btn">送出</button>
     <button type="button" class="close-btn">關閉</button>
